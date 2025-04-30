@@ -1,6 +1,6 @@
 # JavaScript Interview Questions and Answers
 
-# JavaScript
+## JavaScript
 
 <!----------------------------------------------------------------------------------------------------------->
 
@@ -15,7 +15,16 @@
 
     - There are 3 types of variables available in JavaScipt, var, let and const. var is function level scoped
       while let and const are block level scoped. Value of let and var can be reassigned whereas the value of const cannot. In modern javascript, most of the programmers prefer to avoid using var because of it lacks block level scoping and due to hoisting.
-
+    
+    Example:
+      ```
+      var x = 10;
+      let y = 20;
+      const z = 30;
+      console.log(x); 
+      console.log(y); 
+      console.log(z); 
+      ```
 <!----------------------------------------------------------------------------------------------------------->
 
     (Q.3)=> Datatypes in JavaScript
